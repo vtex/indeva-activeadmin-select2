@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: indeva-activeadmin-select2
+  description: Fork Library used by the Integrator on administrative screens
+  annotations:
+    github.com/project-slug: vtex/indeva-activeadmin-select2
+    vtex.com/o11y-os-index: ""
+    vtex.com/janus-acronym: ""
+    grafana/dashboard-selector: ""
+    backstage.io/techdocs-ref: dir:../
+  tags:
+    - ruby
+spec:
+  type: library
+  lifecycle: stable
+  owner: sales-experience
+  system: indeva
+  dependsOn: []
